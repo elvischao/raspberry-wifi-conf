@@ -113,7 +113,7 @@ app.directive("rwcPasswordEntry", function($timeout) {
         template: [
             "<div class='rwc-password-entry-container' ng-class='{\"hide-me\": !visible}'>",
             "    <div class='box'>",
-            "         <input type = 'password' placeholder = '输入密码' ng-model = 'passcode' />",
+            "         <input type = 'password' placeholder = '输入密码...' ng-model = 'passcode' />",
             "         <div class = 'btn btn-cancel' ng-click = 'reset(null)'>取消</div>",
             "         <div class = 'btn btn-ok' ng-click = 'submit()'>提交</div>",
             "    </div>",
