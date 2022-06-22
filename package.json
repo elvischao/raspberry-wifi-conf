@@ -1,11 +1,11 @@
 {
   "name": "raspberry-wifi-conf",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node RPI Wifi Configuration Application",
   "main": "server.js",
   "scripts": {
     "test": "npm test",
-    "provision": "apt-get update -y && apt-get install dnsmasq hostapd iw -y",
+    "provision": "sudo apt-get update -y && sudo apt-get install dnsmasq hostapd iw -y",
     "bootstrap": "wget http://treebeard.home.net:1234/bootstrap/pifi-conf -O bootstrap.sh && chmod u+x bootstrap.sh && ./bootstrap.sh"
   },
   "repository": {
