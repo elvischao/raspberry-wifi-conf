@@ -16,7 +16,7 @@ html, body {
 
     -webkit-user-select: none;
 
-    background: #000000; /*#039be5;*/
+    background: #039be5; /*#000000;*/
     border-bottom: 2px solid #ffffff;
 }
 .page-header a {
