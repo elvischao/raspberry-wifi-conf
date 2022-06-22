@@ -6,7 +6,7 @@
         "force_reconfigure": false,
         "wifi_interface":    "wlan0",
         "ssid":              "SEHO-Config",
-        "passphrase":        "qazwsxedcr",
+        "passphrase":        "123456qwer",
         "domain":            "rpi.config",
         "ip_addr":           "192.168.2.1",
         "netmask":           "255.255.255.0",
