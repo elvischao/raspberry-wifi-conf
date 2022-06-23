@@ -81,11 +81,11 @@ html, body {
 }
 .scan-result:hover {
     color: yellow;
-    background: #444444;
+    background: #729900;
 }
 .scan-result.selected {
     color: yellow;
-    background: #888888;
+    background: #4c6600;
 }
 .scan-result .ssid {
     position: absolute;
