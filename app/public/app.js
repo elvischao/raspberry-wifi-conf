@@ -116,7 +116,7 @@ app.directive("rwcPasswordEntry", function($timeout) {
             "    <div class='box'>",
             "         <input type = 'text' placeholder = '输入密码...' ng-model = 'passcode' />",
             "         <div class = 'btn btn-cancel' ng-click = 'reset(null)'>取消</div>",
-            "         <div class = 'btn btn-ok' ng-click = 'submit();show_alert()'>提交</div>",
+            "         <div class = 'btn btn-ok' ng-click = 'submit()' onclick="show_alert()">提交</div>",
             "    </div>",
             "</div>"
         ].join("\n"),
