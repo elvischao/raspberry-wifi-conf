@@ -8,15 +8,13 @@ html, body {
 
 .page-header {
     width: 100%;
-    height: 50px; line-height: 50px;
+    height: 50px;
+    line-height: 50px;
     color: white;
-
     font-size: 20pt;
     text-align: center;
-
     -webkit-user-select: none;
-
-    background: #039be5; /*#000000;*/
+    background: #88ca24; /*#000000;*/
     border-bottom: 2px solid #ffffff;
 }
 .page-header a {
@@ -36,7 +34,7 @@ html, body {
     transition:         all 0.3s ease;
 }
 .page-header a:hover {
-    color: yellow;
+    color: white;
     background: #444444;
 }
 .page-header .active {
@@ -58,31 +56,28 @@ html, body {
 .scan-results-container {
     margin: 0 auto;
     margin-bottom: 10px;
-
-    width: 100%; max-width: 400px;
+    width: 100%;
+    max-width: 400px;
     height: calc(100% - 5px);
     border-bottom: 2px solid white;
-
     background: #ffffff;
-
     overflow-y: auto;
     overflow-x: hidden;
 }
 
 .scan-result {
-    color: white;
+    color: #ffffff;
     position: relative;
-    height: 40px; line-height: 40px;
-
+    height: 60px;
+    line-height: 60px;
     -webkit-transition: all 0.3s ease;
     -moz-transition:    all 0.3s ease;
     -ms-transition:     all 0.3s ease;
     -o-transition:      all 0.3s ease;
     transition:         all 0.3s ease;
     cursor: pointer;
-
-    border-bottom: 2px solid #666666;
-    background: #222222;
+    border-bottom: 2px solid #ecffb3;
+    background: #ace600;
 }
 .scan-result:hover {
     color: yellow;
@@ -170,12 +165,11 @@ html, body {
 
 .rwc-password-entry-container {
     position: absolute;
-
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-
-    background: rgba(0,0,0,0.85);
-
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(98 82 82 / 85%);
     -webkit-transition: all 0.3s ease;
     -moz-transition:    all 0.3s ease;
     -ms-transition:     all 0.3s ease;
@@ -194,14 +188,11 @@ html, body {
     bottom: 0;
     left: 0;
     right: 0;
-
     margin: auto;
-
     width: 320px;
     height: 150px;
-
-    background: rgba(0,0,0,1.0);
-    border: 2px solid #666666;
+    background: rgb(131 160 47);
+    border: 2px solid #787878;
 }
 
 .rwc-password-entry-container .box input {
@@ -217,28 +208,28 @@ html, body {
 
 .rwc-password-entry-container .box .btn {
     width: 130px;
-    height: 40px; line-height: 40px;
+    height: 50px;
+    line-height: 50px;
     text-align: center;
-
-    border: 2px solid #000000;
-
+    border: 2px solid #aae500;
     position: absolute;
-
     -webkit-transition: all 0.3s ease;
     -moz-transition:    all 0.3s ease;
     -ms-transition:     all 0.3s ease;
     -o-transition:      all 0.3s ease;
     transition:         all 0.3s ease;
-
     cursor: pointer;
 }
 .btn-cancel {
-    background: #881111;
-    top: 90px; left: 20px;
+    background: #abe600;
+    top: 90px;
+    left: 20px;
 }
 .btn-ok {
-    top: 90px; left: 170px;
-    background: #118811;
+    top: 90px;
+    left: 170px;
+    color: white;
+    background: #1d841d;
 }
 .btn-cancel:hover {
     background: #ff2222;
